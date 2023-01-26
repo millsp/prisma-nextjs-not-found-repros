@@ -6,11 +6,11 @@ module.exports = {
   output: 'standalone',
   experimental: {
     appDir: true,
-    outputFileTracingRoot: path.join(__dirname, '../../'),
+    // outputFileTracingRoot: path.join(__dirname, '../../'),
   },
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.externals = [...config.externals, 'db']
+  // webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  //   config.externals = [...config.externals, 'db']
 
-    return config
-  },
+  //   return config
+  // },
 }
