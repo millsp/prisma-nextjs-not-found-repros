@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "prisma generate"
   },
   "author": "",
   "license": "ISC",
